@@ -1,38 +1,327 @@
-.App {
+@font-face {
+  font-family: Gowun;
+  src: url(../src/assets/Gowun_Batang/GowunBatang-Bold.ttf);
+}
+
+html{
+  height: 100%;
+}
+
+.App{
+  /* background-color: #8ABE52; */
+  background-image: url(../src/components/aboutme/codingCatTwo.png);
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 100%;
+}
+
+.nvidiaPage{
+  background-color: #8ABE52;
+  /* background-image: url(../src/components/aboutme/nvidia.jpeg);
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed; */
+  height: 100%;
+}
+
+.riotPage{
+  /* background-color: red; */
+  background-image: url(../src/components/jobtwo/tft.jpeg);
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 100%;
+}
+
+.twitchPage{
+  /* background-color: red; */
+  background-image: url(../src/components/jobthree/twitch.jpeg);
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 100%;
+}
+
+.disneyPage{
+  /* background-color: red; */
+  background-image: url(../src/components/jobfour/disneyBack.jpg);
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 100%;
+}
+
+.netflixPage{
+  /* background-color: red; */
+  background-image: url(../src/components/jobfive/netflix.jpeg);
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 100%;
+}
+
+
+.navContainer.container{
+
+  width: 100%;
+}
+
+.navbar{
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.8);
+}
+
+.aboutMeContainer.container{
+  margin: 4%;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.aboutMeRow.row{
+  margin: 0;
+  width: 100%;
+}
+
+.aboutMePictureCol.col{
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.aboutMeTextCol.col{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.aboutMeTextBoxCol{
+  width: 90%;
+  height: auto;
+  background-color: rgba(255, 255, 255, 0.75);
+  border-radius: 25px 12px 25px 0px;
+  border-style: solid;
+  filter: drop-shadow(-30px 10px 4px rgba(0,0,0,0.5));
+  padding: 40px;
+}
+
+.imgMe{
+  filter: drop-shadow(-30px 10px 4px rgba(0,0,0,0.5));
+  border-style: solid;
+}
+
+.aboutMeText{
+  font-size: 24px;
+  font-family: Gowun;
+}
+
+.codingCatPic{
+  width: 100% !important;
+}
+
+.rowCat.row{
+  margin: 0;
+  margin-top: 150px;
+  margin-bottom: 1050px;
+}
+
+.eduPicText{
+  height: 100px;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.8);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footerContainer.container{
+  background-color: white;
+  padding: 0 !important;
+  margin: 0 !important;
+  height: 150px;
+  max-width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footerRow.row{
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.footerCol.col{
+  margin: 0;
+  padding: 0 !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footerRow2.row{
+  margin: 0;
+  padding: 0;
+  display: flex;
+  width: 50%;
+  justify-content: space-around;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.footerCol2.col{
+  margin: 0;
+  padding: 0 !important;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+img.githubPic{
+  width: 30px;
+  height: 30px;
+  margin: 0;
+  padding: 0;
+}
+
+.textFoot{
+  margin: 0;
+  padding: 0;
+  font-family: Gowun;
+}
+
+a.nvidiaLink{
+  padding: 8px;
+  text-decoration: none;
+  color: rgba(0,0,0,0.55);
+}
+
+.jobOneContainer.container{
+  margin: 0;
+  padding: 0;
+  max-width: 100%; 
+  width: 100%;
+}
+
+.jobOneRowOne.row{
+  margin: 0;
+  padding: 0;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.jobOneTitle{
+  font-family: Gowun;
+  font-size: 60px;
+  width: auto;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  -webkit-text-stroke-color: black;
+  -webkit-text-stroke-width: black;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.jobOneTitle2{
+  font-family: Gowun;
+  font-size: 60px;
+  width: auto;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  text-shadow:
+  -5px -2px 0 #000,
+  1px -1px 0 #000,
+  -1px 1px 0 #000,
+  1px 1px 0 #000;  
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+
+.nvidiaPicClass{
+  width: 85%;
+}
+
+.jobOneColOne.col{
+  padding-bottom: 50px;
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
 }
 
-.App-link {
-  color: #61dafb;
+.jobOneTextBox{
+  width: 85%;
+  height: auto;
+  background-color: rgba(255, 255, 255, 0.85);
+  display: flex;
+  align-items: center;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.jobOneTextBox2{
+  width: 85%;
+  height: auto;
+  background-color: rgba(255, 255, 255, 0.85);
+  display: flex;
+  align-items: center;
+}
+
+.nvidiaText{
+  font-family: Gowun;
+  font-size: 20px;
+  padding: 10px;
+}
+
+.footA{
+  width: 30px !important;
+  height: 30px !important;
+  padding: 0;
+  margin: 0;
+}
+
+@media screen and (max-width: 1023px) {
+  .titleMarcel.navbar-brand{
+    font-size: 14px;
   }
-  to {
-    transform: rotate(360deg);
+
+  .aboutMeContainer.container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .aboutMePictureCol.col{
+    width: 100%;
+  }
+
+  .aboutMeTextCol.col{
+    width: 100%;
+  }
+
+  .imgMe{
+    margin-bottom: 20px;
+  }
+
+}
+
+@media screen and (max-width: 991px){
+  a.nvidiaLink{
+    padding: 0;
+    padding-top: 8px;
+    padding-bottom: 8px;
+  }
+}
+
+@media screen and (max-width: 423px) {
+  .titleMarcel.navbar-brand{
+    /* margin: 4px; */
+  }
+
+  .navContainer.container{
+    display: flex;
+    justify-content: left !important;
+    padding-left: 2px;
+    padding-right: 2px;
   }
 }
